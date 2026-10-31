@@ -1,0 +1,55 @@
+method,category,frame ignored,condition,auroc,good rejected
+golden template,transistor,0 px,unchanged,0.8129166666666667,0.03333333333333333
+golden template,transistor,0 px,shift 32 px,0.6666666666666666,0.48333333333333334
+golden template,transistor,0 px,rotation 8 degrees,0.8508333333333333,0.18333333333333332
+golden template,transistor,40 px,unchanged,0.8616666666666667,0.03333333333333333
+golden template,transistor,40 px,shift 32 px,0.69375,0.38333333333333336
+golden template,transistor,40 px,rotation 8 degrees,0.8604166666666667,0.03333333333333333
+golden template,transistor,60 px,unchanged,0.8691666666666666,0.05
+golden template,transistor,60 px,shift 32 px,0.69875,0.4
+golden template,transistor,60 px,rotation 8 degrees,0.86875,0.05
+neural network,transistor,0 patches (own),unchanged,0.8716666666666667,0.11666666666666667
+neural network,transistor,0 patches (own),shift 32 px,0.5720833333333333,0.7
+neural network,transistor,0 patches (own),rotation 8 degrees,0.6124999999999999,0.9
+neural network,transistor,3 patches (54 px),unchanged,0.8791666666666667,0.13333333333333333
+neural network,transistor,3 patches (54 px),shift 32 px,0.875,0.13333333333333333
+neural network,transistor,3 patches (54 px),rotation 8 degrees,0.8079166666666666,0.2833333333333333
+neural network,transistor,4 patches (73 px),unchanged,0.885,0.13333333333333333
+neural network,transistor,4 patches (73 px),shift 32 px,0.8775,0.13333333333333333
+neural network,transistor,4 patches (73 px),rotation 8 degrees,0.8079166666666666,0.35
+golden template,pill,0 px,unchanged,0.7479541734860884,0.0
+golden template,pill,0 px,shift 32 px,0.566012002182215,0.5384615384615384
+golden template,pill,0 px,rotation 8 degrees,0.7487725040916531,0.0
+golden template,pill,40 px,unchanged,0.7296781232951446,0.0
+golden template,pill,40 px,shift 32 px,0.729950900163666,0.0
+golden template,pill,40 px,rotation 8 degrees,0.7299509001636661,0.0
+golden template,pill,60 px,unchanged,0.70949263502455,0.0
+golden template,pill,60 px,shift 32 px,0.7092198581560285,0.0
+golden template,pill,60 px,rotation 8 degrees,0.7097654118930715,0.0
+neural network,pill,0 patches (own),unchanged,0.8412438625204581,0.038461538461538464
+neural network,pill,0 patches (own),shift 32 px,0.8104200763775232,0.19230769230769232
+neural network,pill,0 patches (own),rotation 8 degrees,0.8224222585924713,0.0
+neural network,pill,3 patches (54 px),unchanged,0.837152209492635,0.038461538461538464
+neural network,pill,3 patches (54 px),shift 32 px,0.8690671031096562,0.0
+neural network,pill,3 patches (54 px),rotation 8 degrees,0.826241134751773,0.0
+neural network,pill,4 patches (73 px),unchanged,0.8333333333333334,0.038461538461538464
+neural network,pill,4 patches (73 px),shift 32 px,0.86797599563557,0.0
+neural network,pill,4 patches (73 px),rotation 8 degrees,0.8256955810147298,0.0
+golden template,metal_nut,0 px,unchanged,0.656891495601173,0.09090909090909091
+golden template,metal_nut,0 px,shift 32 px,0.3509286412512219,0.9090909090909091
+golden template,metal_nut,0 px,rotation 8 degrees,0.6515151515151515,0.09090909090909091
+golden template,metal_nut,40 px,unchanged,0.6285434995112413,0.0
+golden template,metal_nut,40 px,shift 32 px,0.6314760508308895,0.09090909090909091
+golden template,metal_nut,40 px,rotation 8 degrees,0.6133919843597262,0.045454545454545456
+golden template,metal_nut,60 px,unchanged,0.6094819159335289,0.045454545454545456
+golden template,metal_nut,60 px,shift 32 px,0.6256109481915934,0.0
+golden template,metal_nut,60 px,rotation 8 degrees,0.6080156402737048,0.045454545454545456
+neural network,metal_nut,0 patches (own),unchanged,0.9682306940371456,0.045454545454545456
+neural network,metal_nut,0 patches (own),shift 32 px,0.70772238514174,0.6818181818181818
+neural network,metal_nut,0 patches (own),rotation 8 degrees,0.9760508308895406,0.0
+neural network,metal_nut,3 patches (54 px),unchanged,0.9677419354838709,0.045454545454545456
+neural network,metal_nut,3 patches (54 px),shift 32 px,0.9565004887585532,0.09090909090909091
+neural network,metal_nut,3 patches (54 px),rotation 8 degrees,0.969208211143695,0.0
+neural network,metal_nut,4 patches (73 px),unchanged,0.9657869012707723,0.045454545454545456
+neural network,metal_nut,4 patches (73 px),shift 32 px,0.9291300097751711,0.09090909090909091
+neural network,metal_nut,4 patches (73 px),rotation 8 degrees,0.9613880742913,0.0

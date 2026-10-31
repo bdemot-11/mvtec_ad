@@ -1,0 +1,10 @@
+# Versions this notebook was run with: Python 3.14, Windows, CPU only.
+# PyTorch is the CPU build; if pip picks a CUDA build on your machine that also works, only slower or faster to run.
+anomalib==2.7.0
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.1
+matplotlib==3.11.1
+opencv-python-headless==5.0.0.93

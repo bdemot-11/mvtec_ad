@@ -1,6 +1,6 @@
 # Can a pretrained network beat a golden template? Anomaly detection on MVTec AD
 
-Poster summary: [`Inspection AI Study Poster.pdf`](Inspection%20AI%20Study%20Poster.pdf) (four pages: overview, examples, results, maps)
+Poster summary: [`mvtec_ad_study_poster.pdf`](mvtec_ad_study_poster.pdf) (four pages: overview, examples, results, maps)
 
 I spent 18 years around inspection equipment, where "find the part that does not look like the good ones" is solved with golden templates, filters and a lot of tuning. I wanted to see how far a pretrained neural network gets on the same task with no defect examples at all, only good images. On six MVTec AD categories, a nearest-neighbor method on pretrained features beat my golden-template pipeline clearly on four of them (a tuned classical method came close on two of those), and PatchCore was the best overall, but it takes about fifty times longer to fit than the nearest-neighbor method (466 s against 9 s on grid, CPU). What surprised me: the biggest single gain (grid, AUROC 0.77 to 1.00) came from understanding one artifact at the image border, not from a better model. The fix has a price: a defect lying only in the ignored border cannot be found (one of the 57 defective grid images). Built with Claude as a coding assistant; the notebook is the full record.
 
@@ -30,7 +30,7 @@ Both studies are available as documents that open in any browser and need nothin
 |---|---|
 | `mvtec_ad_comparison.ipynb` | the notebook, committed without outputs |
 | `mvtec_ad_comparison_report.html`, `mvtec_ad_robustness_report.html` | readable versions of the two notebooks, with figures (see above) |
-| `Inspection AI Study Poster.pdf` | four-page poster summary of both studies (MVTec AD images, so CC BY-NC-SA 4.0 like the reports) |
+| `mvtec_ad_study_poster.pdf` | four-page poster summary of both studies (MVTec AD images, so CC BY-NC-SA 4.0 like the reports) |
 | `mvtec_ad_robustness.ipynb` | second notebook: how the nearest-neighbour method copes with simulated changes of lighting, colour, camera, lens and part including the comparison with the golden template and shifted and rotated parts |
 | `helpers.py`, `robustness_viz.py`, `threshold_flow.py` | code shared by the second notebook: the methods and the simulated variations, the measurements and plots, the threshold-with-reject-samples simulation |
 | `robustness_batch.csv`, `robustness_scores/` | results of the batch variations for the neural method: summary per condition and category, and the score of every image |

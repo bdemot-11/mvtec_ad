@@ -1,1 +1,2 @@
 *.ipynb filter=nbclean
+*.pdf binary
